@@ -1,0 +1,60 @@
+:root {
+    --primary: #78180E;
+    --secondary: #56590E;
+    --tertiary: #D7DC98;
+    --quaternary: #5B8FA8;
+
+    --text: #2A2A2A;
+    --accent: #78180E;
+    --hover: #66140C;
+
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #727d86;
+    --gray-light: #F1EFEF;
+    --gray-dark: #333333;
+    --green: #9AA244;
+    --green-hover: #616530;
+    --red: #5C082F;
+    --red-hover: #41001E;
+    --blue: #155F83;
+    --blue-hover: #0F425C;
+    --pink: #DF766D;
+
+    --font-title: 'Lora', "Times New Roman", Times, serif;
+    --font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-size-html: 10px;
+    --font-weight: 400;
+    --font-size-small: 1.6rem;
+    --font-size: 1.8rem;
+    --font-size-large: 2rem;
+    --font-size-xlarge: 2.2rem;
+    --font-size-xxlarge: 2.8rem;
+    --line-height: 1.55;
+    --line-height-heading: 1.15;
+    --letter-spacing: 0.1em;
+
+    --container: 117rem;
+    --gap: 1rem;
+    --gap-inner: 3rem;
+
+    --border-radius: 1.8rem;
+    --border-width: 1px;
+    --border-width-bold: 2px;
+
+    --duration: 0.2s;
+    --function: cubic-bezier(0.4, 0.0, 0.2, 1);
+
+    --overlay: rgba(0, 0, 0, 0.8);
+    --shadow: 0px 4px 18px rgba(0, 0, 0, 0.2);
+
+    --z-index-navigation: 3000;
+    --z-index-modal: 4001;
+    --z-index-overlay: 4000;
+}
+
+$d: var(--duration);
+$f: var(--function);
+
+$desktop: 1180px;
+$mobile: 992px;

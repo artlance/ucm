@@ -1,0 +1,121 @@
+/* typography */
+.wysiwyg {
+    a {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
+        color: var(--text);
+        &:hover {
+            color: var(--hover);
+        }
+        &.two-columns-read {
+            color: var(--accent);
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+                text-decoration-thickness: 1px;
+                text-underline-offset: 2px;
+            }
+        }
+    }
+    figure {
+        margin: 0 0 4rem;
+        img {
+            width: 100%;
+            border-radius: var(--border-radius);
+        }
+        &.two-columns-img {
+            margin-top: 2.5rem;
+            img {
+                width: auto;
+                border-radius: 0;
+            }
+        }
+    }
+    figcaption {
+        max-width: 73rem;
+        margin-top: 3.1rem;
+        font-size: 2.2rem;
+        line-height: 1.1;
+        font-family: var(--font-title);
+        font-style: italic;
+    }
+    ul {
+        display: block;
+        margin: 0 0 2rem;
+        padding: 0;
+        list-style: none;
+        li {
+            padding-left: 2.7rem;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                left: 1rem;
+                top: 1.1rem;
+                width: 0.6rem;
+                height: 0.6rem;
+                background: var(--text);
+                border-radius: 50%;
+            }
+            & > ul {
+                li {
+                    &::before {
+                        background: transparent;
+                        border: 0.1rem solid var(--text);
+                    }
+                }
+            }
+        }
+        & ul {
+            margin: 0;
+        }
+    }
+    ol {
+        display: block;
+        margin: 0 0 2rem;
+        padding: 0 0 0 2.5rem;
+        list-style-type: decimal;
+        li {
+            font-weight: 600;
+        }
+        ol {
+            padding-left: 2.8rem;
+            margin-bottom: 2.8rem;
+            list-style-type: lower-latin;
+            li {
+                font-weight: normal;
+            }
+        }
+    }
+    p + .title-subhead {
+        margin-top: 6.2rem;
+    }
+    .title-subhead + ul {
+        margin-top: -3.3rem;
+    }
+    .title-subhead + .two-columns-list {
+        margin-top: -2rem;
+    }
+}
+@media (max-width: $mobile) {
+    .wysiwyg {
+        p {
+            margin-bottom: 1.8rem;
+        }
+        p + .title-subhead {
+            margin-top: 4.8rem;
+        }
+        .title-subhead + ul {
+            margin-top: -2.4rem;
+        }
+        .title-subhead + .two-columns-list {
+            margin-top: -2.4rem;
+        }
+        figcaption {
+            max-width: none;
+            margin-top: 3rem;
+            font-size: 1.8rem;
+        }
+    }
+}

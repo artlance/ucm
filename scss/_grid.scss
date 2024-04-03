@@ -1,0 +1,223 @@
+/* grid */
+.main-site {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: var(--container);
+    padding-left: var(--gap-inner);
+    padding-right: var(--gap-inner);
+    margin-left: auto;
+    margin-right: auto;
+}
+.gap {
+    padding-left: var(--gap);
+    padding-right: var(--gap);
+}
+.title {
+    * {
+        margin: 0;
+        font-size: 100%;
+        line-height: inherit;
+        font-weight: inherit;
+    }
+    &-big {
+        font-size: 6rem;
+        line-height: 1;
+        font-family: var(--font-title);
+        font-style: italic;
+    }
+    &-medium {
+        margin-top: 3.5rem;
+        margin-bottom: 2.5rem;
+        font-size: var(--font-size-large);
+        line-height: 1;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+    }
+    &-small {
+        font-size: 1.8rem;
+        line-height: 1;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    &-subhead {
+        margin-top: 0.8rem;
+        margin-bottom: 5.7rem;
+        font-size: var(--font-size-xlarge);
+        line-height: var(--line-height-heading);
+        font-weight: 600;
+        &-mt0 {
+            margin-top: 0;
+        }
+        &-mb15 {
+            margin-bottom: 1.5rem;
+        }
+        &.normal {
+            font-weight: normal;
+        }
+    }
+    &-serif {
+        font-size: 2.2rem;
+        line-height: 1.1;
+        font-family: var(--font-title);
+        font-style: italic;
+    }
+}
+.serif {
+    font-family: var(--font-title);
+}
+h1, .h1 {
+    margin: 0;
+    font-size: 7rem;
+    line-height: 0.9;
+    font-weight: 500;
+    text-transform: uppercase;
+    .serif {
+        font-size: 8rem;
+        line-height: 0.88;
+        font-weight: normal;
+        font-style: italic;
+        text-transform: capitalize;
+    }
+}
+h2, .h2 {
+    margin: 0;
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    .serif {
+        font-size: 7rem;
+        line-height: 1.05;
+        font-weight: normal;
+        font-style: italic;
+        text-transform: capitalize;
+    }
+}
+h3, .h3 {
+    margin: 0;
+    font-size: 4rem;
+    line-height: 0.95;
+    font-weight: 500;
+    text-transform: uppercase;
+    .serif {
+        font-size: 4.4rem;
+        line-height: 0.9;
+        font-weight: normal;
+        font-style: italic;
+        text-transform: none;
+    }
+    &.low {
+        text-transform: none;
+    }
+}
+h4, .h4 {
+    margin: 0;
+    font-size: 3.4rem;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    .serif {
+        line-height: 1.1;
+        font-weight: normal;
+        text-transform: capitalize;
+    }
+}
+h5, .h5 {
+    margin: 0;
+    font-size: var(--font-size-xxlarge);
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    .serif {
+        line-height: 1.1;
+        font-weight: normal;
+        text-transform: capitalize;
+    }
+}
+dfn {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    font-style: normal;
+    transition: color $d $f;
+    will-change: color;
+    display: inline-block;
+    &:hover {
+        color: var(--black);
+    }
+    &.dfn-disabled {
+        text-decoration: none;
+        pointer-events: none;
+        display: inline;
+    }
+}
+.mobile-only {
+    display: none;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.d-inline {
+    display: inline;
+}
+.fancybox__container {
+    z-index: 9000 !important;
+}
+
+@media (max-width: $mobile) {
+    :root {
+        --font-size-small: 1.4rem;
+        --font-size: 1.6rem;
+        --font-size-large: 1.6rem;
+        --font-size-xlarge: 1.8rem;
+        --font-size-xxlarge: 2rem;
+    }
+    .title {
+        &-big {
+            font-size: 4.4rem;
+        }
+        &-serif {
+            font-size: 1.8rem;
+        }
+        &-subhead {
+            margin-bottom: 4.8rem;
+            &-mb15 {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+    h1, .h1 {
+        font-size: 4rem;
+        .serif {
+            font-size: 4.6rem;
+        }
+    }
+    h2, .h2 {
+        font-size: 3.2rem;
+        .serif {
+            font-size: 3.8rem;
+        }
+    }
+    h3, .h3 {
+        font-size: 3rem;
+        .serif {
+            font-size: 3.4rem;
+        }
+    }
+    h4, .h4 {
+        font-size: 2.6rem;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+}
