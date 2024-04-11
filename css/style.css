@@ -1190,7 +1190,6 @@ button.button:hover {
     margin-bottom: 3.4rem;
 }
 .menu > li > ul > li > a {
-    padding-left: 5.9rem;
     color: inherit;
 }
 .menu > li > ul > li > a:hover {
@@ -1301,14 +1300,8 @@ button.button:hover {
     .menu a {
         padding-left: 2.6rem;
     }
-    .menu > li > ul {
-        margin-top: 4.4rem;
-    }
     .menu > li > ul > li {
         margin-bottom: 3.6rem;
-    }
-    .menu > li > ul > li > a {
-        padding-left: 5rem;
     }
 }
 .footer-site {
@@ -1574,6 +1567,9 @@ button.button:hover {
 .leadership {
     margin-bottom: var(--gap);
 }
+.leadership-p {
+    margin-right: -1.8rem;
+}
 .leadership-content {
     background: var(--gray-light) url("../images/home-bg-arrow.svg") -1rem -7.3rem no-repeat;
     background-size: 44.5rem 52.8rem;
@@ -1718,6 +1714,9 @@ button.button:hover {
     }
 }
 @media (max-width: 992px) {
+    .leadership-p {
+        margin-right: 0;
+    }
     .leadership-content {
         background-position: 0 2rem;
         background-size: auto 28rem;
@@ -2055,6 +2054,8 @@ button.button:hover {
         -o-object-fit: cover;
            object-fit: cover;
         aspect-ratio: 12/10;
+        -o-object-position: 50% 0;
+           object-position: 50% 0;
     }
 }
 @media (max-height: 740px) {
@@ -2062,6 +2063,8 @@ button.button:hover {
         -o-object-fit: cover;
            object-fit: cover;
         aspect-ratio: 14/10;
+        -o-object-position: 50% 0;
+           object-position: 50% 0;
     }
 }
 @media (max-width: 992px) {
@@ -2207,14 +2210,14 @@ button.button:hover {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.15);
 }
 .priorities-item-img::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.9)));
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.9) 100%);
 }
 .priorities-item-img img {
     width: 100%;
@@ -2529,6 +2532,9 @@ button.button:hover {
     margin: 0;
     padding: 0 0 0 4.4rem;
     list-style: none;
+}
+.welcome-links-list .serif {
+    text-transform: none;
 }
 .welcome-links-list li {
     margin-bottom: 2.7rem;

@@ -3,7 +3,7 @@
         "name": [
             "population health"
         ],
-        "description": "<strong>Population health</strong> involves the health outcomes of a group of individuals"
+        "description": "<strong>Population health</strong> Involves the health outcomes of a group of people."
     },
     {
         "name": [
@@ -11,10 +11,11 @@
             "fiscal 2023",
             "fiscal year",
             "fiscal",
+            "FY23",
             "Fiscal (FY) 2023:",
             "fiscal year 2023"
         ],
-        "description": "A fiscal year is the 12 months a business uses for financial and tax reporting. UChicago Medicine’s fiscal year 2023 is from July 1, 2022 to June 30, 2023."
+        "description": "A fiscal year (FY) is the 12 months a business uses for financial and tax reporting. UChicago Medicine’s fiscal year 2023 is from July 1, 2022 to June 30, 2023."
     },
     {
         "name": [
@@ -24,70 +25,76 @@
     },
     {
         "name": [
-            "trauma-informed"
-        ],
-        "description": "<strong>Trauma-informed care</strong> is care that looks at and takes into consideration the complete picture of a person’s past and present life, including times of trauma. "
-    },
-    {
-        "name": [
             "low-acuity",
             "low acuity"
         ],
-        "description": "<strong>Low-acuity</strong> Low acuity is based on the Emergency Severity Index (ESI) triage tool from 1 (most urgent) to 5 (least urgent) depending on acuity (or severity) and resources needed to treat that patient (Agency for Healthcare Research and Quality, 2020)."
+        "description": "<strong>Low-acuity</strong> Acuity (or severity) is how urgently a patient needs help and the amount of resources needed to treat that patient. An acuity score is based on the Emergency Severity Index (ESI) triage tool. The tool gives a score of 1 for a high acuity patient for the most urgent (needs help first) and needs the most resources to treat. A score of 5 is low acuity, the least urgent and needs less resources to treat. (Agency for Healthcare Research and Quality, 2020)"
     },
     {
         "name": [
             "An encounter"
         ],
-        "description": "<strong>An encounter</strong> is each time a healthcare professionals talked to or saw a patient."
+        "description": "<strong>An encounter</strong> is each time a healthcare professional talked with or saw a patient."
     },
     {
         "name": [
-            "Food insecurity",
-            "low food access"
+            "Food insecurity"
         ],
         "description": "<strong>Food insecurity</strong> means having limited access to food because of social or financial issues."
     },
     {
         "name": [
-            "Health Equity:"
+            "low food access"
         ],
-        "description": "Health equity means everyone has a fair and just chance to be as healthy as possible. This means removing the things in our healthcare system that can exclude marginalized groups. Marginalized communities, peoples or groups are those that are discriminated against and are excluded."
+        "description": "Living more than one-half mile from the closest supermarket in an urban area.  Living more than 10 miles from the nearest supermarket in a rural area. (Source: US Department of Agriculture (USDA) - Economic Research Service)"
     },
     {
         "name": [
+            "Health Equity:"
+        ],
+        "description": "Health equity means everyone has a fair chance to be as healthy as possible. This means removing the things in our healthcare system that can exclude marginalized groups. Marginalized communities, peoples, or groups are those that are discriminated against and are excluded."
+    },
+    {
+        "name": [
+            "social determinants of health",
             "Social Drivers of Health (SDOH):",
             "Social Drivers of Health",
             "social driver of health, also known as social determinant of health (SDOH)",
             "SDOH",
             "Social Drivers of Health (SDOH), also known as Social Determinants of Health"
         ],
-        "description": "<strong>Social Drivers of Health (SDOH):</strong> Also known as Social Determinants of Health. Conditions in a person’s life including where people are born, live, learn, work, play, worship, and age that affect health outcomes, risks and quality of life. (Citation: Office of Disease Prevention and Health Promotion. Healthy People 2030.)"
+        "description": "<strong>Social Drivers of Health (SDOH):</strong> Also known as social determinants of health. Things in a person’s life including where people are born, live, learn, work, play, worship, and age that affect health outcomes, risks and quality of life. (Citation: Office of Disease Prevention and Health Promotion. Healthy People 2030.)"
     },
     {
         "name": [
             "Trauma-informed care",
+            "trauma-informed"
+        ],
+        "description": "<strong>Trauma-informed care</strong> is care that looks at and considers the effects of all of a person’s past and present life, including times of trauma."
+    },
+    {
+        "name": [
             "Trauma resiliency:"
         ],
-        "description": "<strong>Trauma-informed care</strong> is care that looks at and takes into consideration the complete picture of a person’s past and present life, including times of trauma."
+        "description": "Resilience is being able to adapt or change when you have tragedy, trauma, danger, hardship, and ongoing stress in life. (Citation: Newman, R. (2005). APA’s resilience initiative. Professional Psychology: Research and Practice, 36(3), 227–229.)"
     },
     {
         "name": [
             "engaged"
         ],
-        "description": "Engagement by VRP is defined as number of unique persons touched by the VRP upon presentation to the adult and pediatric emergency departments for Level I trauma activations, in addition to pages, consults, and requests from trauma teams for Level II and non-trauma activations."
+        "description": "Engagement is the number of people who have contact with the Violence Recovery Program (VRP). This can be when going to the adult and pediatric emergency rooms for a Level I trauma, Level II and non-trauma events."
     },
     {
         "name": [
             "Medicaid and Medicare uncompensated care"
         ],
-        "description": "<strong>Medicaid and Medicare uncompensated care:</strong> Support to make up for Medicaid and Medicare reimbursement rates that do not cover the cost of care. Medicaid is a joint federal and state program for those requiring financial assistance. Medicare is a federal health insurance program for people 65 and older and those with certain disabilities"
+        "description": "<strong>Medicaid and Medicare uncompensated care:</strong> Support to make up for Medicaid and Medicare reimbursement rates that do not cover the cost of care. Medicaid is a joint federal and state program for those requiring financial assistance. Medicare is a federal health insurance program for people 65 and older and those with certain disabilities."
     },
     {
         "name": [
             "Unrecoverable patient debt"
         ],
-        "description": "<strong>Unrecoverable patient debt:</strong> Amount absorbed when a hospital cannot collect expected payment for services"
+        "description": "<strong>Unrecoverable patient debt:</strong> Amount absorbed when a hospital cannot collect expected payment for services."
     },
     {
         "name": [
@@ -106,7 +113,7 @@
         "name": [
             "Medical research"
         ],
-        "description": "<strong>Medical research:</strong> Funding to investigate ways to better prevent, detect and treat disease, as well as advance patient care. "
+        "description": "<strong>Medical research:</strong> Funding to investigate ways to better prevent, detect and treat disease, as well as advance patient care."
     },
     {
         "name": [
@@ -118,41 +125,41 @@
         "name": [
             "Cash/in kind"
         ],
-        "description": "<strong>Cash/in kind:</strong> Gifts to community groups for health-related activities"
+        "description": "<strong>Cash/in kind:</strong> Gifts to community groups for health-related activities."
     },
     {
         "name": [
             "Local Firms"
         ],
-        "description": "<strong>From ZIP codes:</strong><br> 60609, 60615, 60616, 60619, 60621, 60637, 60649, 60653 "
+        "description": "<strong>From ZIP codes:</strong><br> 60609, 60615, 60616, 60619, 60621, 60637, 60649, 60653."
     },
     {
         "name": [
             "encounters"
         ],
-        "description": "<strong>An encounter</strong> is each time a healthcare professionals talked to or saw a patient.  "
+        "description": "An encounter is each time a healthcare professional talked with or saw a patient."
     },
     {
         "name": [
             "80% of health outcomes"
         ],
-        "description": "<strong>80% of health outcomes:</strong> Medicaid’s Roles in Addressing Social Determinants of Health. Robert Wood Johnson Foundation, February 19 Issue 5, Briefing Series. "
+        "description": "Medicaid’s Role in Addressing Social Determinants of Health. Robert Wood Johnson Foundation, February 19 Issue 5, Briefing Series."
     },
     {
         "name": [
             "South Side"
         ],
-        "description": "<strong>South Side</strong> is defined as residents living in the following ZIP codes: 60609, 60615, 60617, 60619, 60620, 60621, 60628, 60633, 60636, 60637, 60643, 60649, 60653, 60655, 60827"
+        "description": "<strong>South Side</strong> is defined as residents living in the following ZIP codes: 60609, 60615, 60617, 60619, 60620, 60621, 60628, 60633, 60636, 60637, 60643, 60649, 60653, 60655, 60827."
     },
     {
         "name": [
             "Ingalls Memorial service area"
         ],
-        "description": "<strong>Ingalls Memorial service area</strong> includes a 13 ZIP code area in Thornton Township in South Suburbs. These 13 ZIP codes include: 60406, 60409, 60419, 60425, 60426, 60429, 60430, 60438, 60469, 60473, 60476, 60633, 60827"
+        "description": "<strong>Ingalls Memorial service area</strong> includes a 13 ZIP code area in Thornton Township in South Suburbs. These 13 ZIP codes include: 60406, 60409, 60419, 60425, 60426, 60429, 60430, 60438, 60469, 60473, 60476, 60633, 60827."
     },
     {
         "name": [
-            "fiscal 2023 University of Chicago Medical Center new hires"
+            "fiscal 2023 University of Chicago Medical Center new hires."
         ],
         "description": "<strong>Fiscal 2023 University of Chicago Medical Center new hires:</strong> employees who were hired between July 1, 2022 - June 30, 2023 who work at University of Chicago Medical Center (Hyde Park), UChicago Medicine off sites and Care Network"
     },
@@ -166,7 +173,70 @@
         "name": [
             "Nearly 40% of people"
         ],
-        "description": "2021-2022 University of Chicago Medical Center Community Health Needs Assessment"
+        "description": "Citation: 2021 - 2022 University of Chicago Medical Center Community Health Needs Assessment."
+    },
+    {
+        "name": [
+            "morbidities"
+        ],
+        "description": "Having a disease or a symptom of a disease, often a disease that is chronic (long term)."
+    },
+    {
+        "name": [
+            "hypertension"
+        ],
+        "description": "Having high blood pressure."
+    },
+    {
+        "name": [
+            "Online Teach Back CBT",
+            "Online Teach-Back CBT"
+        ],
+        "description": "Training (on the computer) to learn about the teach-back method."
+    },
+    {
+        "name": [
+            "teach-back method"
+        ],
+        "description": "Asking patients to say in their own words what a health provider has told them. This helps the provider know if they explained in a way the patient understands."
+    },
+    {
+        "name": [
+            "underinsured"
+        ],
+        "description": "A person who has insurance coverage, but not the amount needed to pay for all healthcare expenses."
+    },
+    {
+        "name": [
+            "dis-enfranchised"
+        ],
+        "description": "Not having the rights or privileges to fully take part in society, the community, or an organization, including being able to help set policies or to make one's voice (opinion) heard."
+    },
+    {
+        "name": [
+            "health disparities",
+            "disparities"
+        ],
+        "description": "Differences experienced by socially disadvantaged groups of people in healthcare, injury, violence, or opportunities to have the best health."
+    },
+    {
+        "name": [
+            "inequity",
+            "inequities"
+        ],
+        "description": "Not being fair. Unfair treatment."
+    },
+    {
+        "name": [
+            "service areas"
+        ],
+        "description": "Direction to Primacy: instead of a definition, this hover over can link to the section on the Microsite welcome page which explains the UCMC and Ingalls service areas."
+    },
+    {
+        "name": [
+            "cash/in-kind"
+        ],
+        "description": "<strong>Cash/in kind:</strong> Gifts to community groups for health-related activities."
     },
     {
         "name": [
@@ -185,20 +255,11 @@
             "YEAR",
             "engagements",
             "disparities",
-            "health disparities",
-            "inequities",
             "attendance",
-            "underinsured",
-            "service areas",
             "interventions",
-            "social determinants of health",
             "insecurity",
             "#TBD%",
-            "hypertension",
-            "hours",
-            "teach-back method",
-            "Online Teach Back CBT",
-            "morbidities"
+            "hours"
         ],
         "description": "<strong>No description:</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     }
